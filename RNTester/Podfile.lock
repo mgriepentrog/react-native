@@ -17,16 +17,60 @@ PODS:
     - React/jsiexecutor
   - React/cxxreact (1000.0.0):
     - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
     - Folly (= 2018.10.22.00)
+    - glog
     - React/jsinspector
   - React/DevSupport (1000.0.0):
     - React/Core
     - React/RCTWebSocket
+  - React/fabric (1000.0.0):
+    - React/fabric/activityindicator (= 1000.0.0)
+    - React/fabric/attributedstring (= 1000.0.0)
+    - React/fabric/config (= 1000.0.0)
+    - React/fabric/core (= 1000.0.0)
+    - React/fabric/debug (= 1000.0.0)
+    - React/fabric/events (= 1000.0.0)
+    - React/fabric/graphics (= 1000.0.0)
+    - React/fabric/scrollview (= 1000.0.0)
+    - React/fabric/text (= 1000.0.0)
+    - React/fabric/textlayoutmanager (= 1000.0.0)
+    - React/fabric/uimanager (= 1000.0.0)
+    - React/fabric/view (= 1000.0.0)
+  - React/fabric/activityindicator (1000.0.0):
+    - Folly (= 2018.10.22.00)
+  - React/fabric/attributedstring (1000.0.0):
+    - Folly (= 2018.10.22.00)
+  - React/fabric/config (1000.0.0):
+    - Folly (= 2018.10.22.00)
+  - React/fabric/core (1000.0.0):
+    - Folly (= 2018.10.22.00)
+  - React/fabric/debug (1000.0.0):
+    - Folly (= 2018.10.22.00)
+  - React/fabric/events (1000.0.0):
+    - Folly (= 2018.10.22.00)
+  - React/fabric/graphics (1000.0.0):
+    - Folly (= 2018.10.22.00)
+  - React/fabric/scrollview (1000.0.0):
+    - Folly (= 2018.10.22.00)
+  - React/fabric/text (1000.0.0):
+    - Folly (= 2018.10.22.00)
+  - React/fabric/textlayoutmanager (1000.0.0):
+    - Folly (= 2018.10.22.00)
+  - React/fabric/uimanager (1000.0.0):
+    - Folly (= 2018.10.22.00)
+  - React/fabric/view (1000.0.0):
+    - Folly (= 2018.10.22.00)
+    - yoga
   - React/fishhook (1000.0.0)
   - React/jsi (1000.0.0):
+    - DoubleConversion
     - Folly (= 2018.10.22.00)
+    - glog
   - React/jsiexecutor (1000.0.0):
+    - DoubleConversion
     - Folly (= 2018.10.22.00)
+    - glog
     - React/cxxreact
     - React/jsi
   - React/jsinspector (1000.0.0)
@@ -39,6 +83,10 @@ PODS:
   - React/RCTCameraRoll (1000.0.0):
     - React/Core
     - React/RCTImage
+  - React/RCTFabric (1000.0.0):
+    - Folly (= 2018.10.22.00)
+    - React/Core
+    - React/fabric
   - React/RCTGeolocation (1000.0.0):
     - React/Core
   - React/RCTImage (1000.0.0):
@@ -74,6 +122,7 @@ DEPENDENCIES:
   - React/RCTAnimation (from `../`)
   - React/RCTBlob (from `../`)
   - React/RCTCameraRoll (from `../`)
+  - React/RCTFabric (from `../`)
   - React/RCTGeolocation (from `../`)
   - React/RCTImage (from `../`)
   - React/RCTLinkingIOS (from `../`)
@@ -104,11 +153,11 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
-  Folly: de497beb10f102453a1afa9edbf8cf8a251890de
+  Folly: 71feb3c45061d21e66b72697464807724d5074b7
   glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
-  React: 9b873b38b92ed8012d7cdf3b965477095ed364c4
-  yoga: 0885622311729a02c2bc02dca97167787a51488b
+  React: 228df4560de8636a380433c3fff3eb05891e3596
+  yoga: 128daf064cacaede0c3bb27424b6b4c71052e6cd
 
-PODFILE CHECKSUM: 7af77fbc34af9646e8c6389e7e2c0b4663bb16d9
+PODFILE CHECKSUM: 84b1fad124f8db4cc35a73a222fb8c362bc2c994
 
 COCOAPODS: 1.5.3

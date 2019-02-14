@@ -27,7 +27,7 @@ target 'RNTester' do
 
     # Below this line is Fabric (experimental) specific.
     # Currently they are disabled due to missing pre-reqs, e.g. upgrading Folly.
-    # 'RCTFabric',
+    'RCTFabric',
     # 'RCTFabricSample', # This is RNTesterPods specific sample.
   ]
 

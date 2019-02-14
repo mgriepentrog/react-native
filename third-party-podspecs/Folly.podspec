@@ -34,6 +34,7 @@ Pod::Spec.new do |spec|
                       'folly/memory/detail/MallocImpl.cpp'
   # workaround for https://github.com/facebook/react-native/issues/14326
   spec.preserve_paths = 'folly/*.h',
+                        'folly/concurrency/*.h',
                         'folly/container/*.h',
                         'folly/container/detail/*.h',
                         'folly/detail/*.h',
